@@ -1,0 +1,59 @@
+button,
+.button,
+.widget .button,
+.wp-block-button__link,
+input[type="button"],
+input[type="reset"],
+input[type="submit"],
+.wpforms-form button[type=submit],
+div.wpforms-container-full .wpforms-form button[type=submit],
+div.nf-form-content input[type=button],
+.wp-block-search .wp-block-search__button {
+	border: 0;
+	box-shadow: none;
+	background: var(--color-accent);
+	color: #fff;
+	padding: 11px 24px;
+	cursor: pointer;
+	display: inline-block;
+	transition: all 0.3s;
+	border-radius: 0;
+	height: auto;
+	border-radius: 5px;
+	letter-spacing: 0;
+	font-weight: 600;
+
+	&:hover {
+		color: #fff;
+		background-color: var(--color-accent-dark);
+	}
+
+	&:visited,
+	&:active,
+	&:focus {
+		color: #fff;
+	}
+}
+a.wc-backward {
+	color: #fff;
+}
+.is-style-outline .wp-block-button__link,
+.wp-block-button__link.is-style-outline {
+	color: var(--color-accent);
+	border: 2px solid var(--color-accent);
+
+	&:hover {
+		border-color: var(--color-accent-dark);
+		color: var(--color-white-text);
+		background-color: var(--color-accent-dark);
+	}
+}
+.wp-block-button {
+	margin-bottom: 20px;
+}
+.wp-block-button.is-style-squared, 
+.wp-block-button__link.wp-block-button.is-style-squared {
+	a {
+		border-radius: 0;
+	}
+}

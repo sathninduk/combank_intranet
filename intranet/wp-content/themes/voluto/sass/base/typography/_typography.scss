@@ -1,0 +1,18 @@
+body,
+button,
+input,
+select,
+optgroup,
+textarea {
+	color: var(--color-text);
+	font-family: 'Inter', sans-serif;
+	font-size: 16px;
+	line-height: var(--body-line-height);
+}
+
+body {
+	-webkit-font-smoothing: antialiased;
+}
+
+@import "headings";
+@import "copy";

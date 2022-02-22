@@ -1,0 +1,41 @@
+.voluto-breadcrumb-trail {
+	border-bottom: 1px solid var(--color-borders);
+	font-size: var(--font-size-sm);
+	padding: 15px 0;
+	
+	ul {
+		list-style: none;
+		padding: 0;
+		margin: 0;
+
+		.voluto-icon {
+			margin: 0 9px;
+
+			svg {
+				width: 11px;
+				height: 11px;
+				fill: var(--color-gray);
+			}
+		}
+
+		li {
+			display: inline;
+			padding-bottom: 0;
+
+			&:last-of-type {
+				.voluto-icon {
+					display: none;
+				}
+			}
+
+		}
+	}
+
+	a {
+		color: var(--color-gray);
+
+		&:hover {
+			color: var(--color-accent);
+		}
+	}	
+}

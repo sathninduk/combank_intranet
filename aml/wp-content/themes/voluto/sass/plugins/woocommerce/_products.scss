@@ -1,0 +1,320 @@
+.woocommerce-results-wrapper {
+	
+	margin-bottom: 30px;
+
+	.woocommerce-result-count {
+		margin: 0;
+	}
+	.woocommerce-ordering {
+		display: inline-block;
+
+		select {
+			padding: 5px 10px;
+		}
+	}
+}
+ul.products {
+	margin: 0;
+	padding: 0;
+
+	&:before,
+	&:after {
+		content: " ";
+		display: table;
+	}
+	
+	&:after {
+		clear: both;
+	}	
+
+	li.product {
+		list-style: none;
+		position: relative;
+		margin-bottom: 45px;
+		text-align: center;
+
+		.woocommerce-loop-product__title {
+			@include font-size(16);
+			font-weight: 400;
+			margin: 10px 0;
+		}	
+
+		.tinvwl_add_to_wishlist_button {
+			margin: 0 !important;
+
+			&::before {
+				margin: 0 !important;
+				line-height: 40px !important;
+				color: #000;
+			}
+
+			.tinvwl_add_to_wishlist-text {
+				display: none;
+			}
+		}
+		
+		.added_to_cart {
+			margin-left: 5px;
+		}		
+
+		img {
+			display: block;
+			margin: 0 auto;
+		}
+
+		.star-rating {
+			margin: 0 auto 5px;
+		}
+
+		.yith-wcqv-button,
+		.yith-wcwl-add-to-wishlist,
+		.compare {
+			position: absolute;
+			left: -999em;
+			opacity: 0;
+		}
+
+		.product-placeholder {
+			position: absolute;
+			top: 30%;
+			right: -50px;
+			z-index: 11;
+			opacity: 0;
+			transition: all 0.4s;
+
+			& > * {
+				display: block;
+				line-height: 40px;
+				text-align: center;
+				width: 40px;
+				height: 40px;
+				background: #fff;
+				box-shadow: 0 0 12px rgba(0,0,0,0.1);
+				color: #000;
+				fill: #000;
+				margin-bottom: 10px;
+				margin-top: 0;
+				transition: background-color 0.3s;
+				position: static;
+				opacity: 1;
+				border-radius: 50%;
+
+				&:hover {
+					background-color: var(--color-accent);
+					color: #fff;
+					fill: #fff;
+
+					.tinvwl_add_to_wishlist_button::before,
+					i,
+					span {
+						color: #fff;
+						fill: #fff;
+					}
+				}
+
+				i,
+				.er-icon {
+					margin: 0;
+					line-height: 1;
+				}
+			}
+
+			.yith-wcwl-add-button a {
+				color: #000;
+			}
+		}
+
+		a.compare.button {
+			font-size: 0;
+			padding: 0;
+
+			&::before {
+				content: '\f24e';
+				font-size: 16px;
+				font-family: 'fontello';
+			}
+		}
+
+		.loop-thumb-wrapper {
+			margin-bottom: 15px;
+		}
+
+	}
+
+	.loop-product-cats {
+		margin-top: 15px;
+
+		a {
+			color: var(--color-gray);
+			font-size: var(--font-size-sm);
+			text-transform: uppercase;
+			letter-spacing: 1px;
+
+			&:hover {
+				color: var(--color-accent);
+			}
+		}
+	}
+
+	.button {
+		margin-top: 15px;
+	}
+
+}
+
+span.onsale {
+    position: absolute;
+	z-index: 11;
+    top: 15px;
+    right: 15px;
+    background-color: var(--color-accent);
+    font-size: 12px;
+    text-transform: uppercase;
+	padding: 3px 10px;
+	border-radius: 10px;
+    color: #fff;
+	text-align: center;
+
+	&.shape-rectangle {
+		width: auto;
+		border-radius: 0;
+		height: auto;
+		line-height: 1;
+		padding: 8px 10px;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	ul.products {
+
+		li.product {
+
+			width: 47%;
+			float: left;
+			margin-right: 6%;
+
+			&:nth-of-type(2n) {
+				margin-right: 0;
+			}
+		}
+	}
+
+}
+
+@media screen and (min-width: 768px) {
+
+	ul.products {
+
+		li.product {
+	
+			float: left;
+			margin-right: $columns__margin;
+	
+			&.first {
+				clear: both;
+			}
+
+			&.last {
+				margin-right: 0;
+			}
+		}
+	}	
+
+	@for $i from 2 through 6 {
+
+		ul.products.columns-#{$i} {
+
+			li.product {
+
+				@include column-width( $i );
+			}
+
+		}
+	}
+}
+
+.price {
+	
+	color: var(--color-text);
+	font-weight: 600;
+	display: block;
+
+	del {
+		color: var(--color-gray);
+	}
+
+	ins {
+		background: transparent;
+	}
+
+	.single-product-top & {
+		font-size: var(--font-size-xl);
+		margin-bottom: 15px !important;
+
+		del {
+			font-size: var(--font-size-md);	
+		}
+	}
+}
+
+.woocommerce {
+	.products {
+		.button {
+			&:visited {
+				color: #fff;
+			}
+
+			&:hover {
+				background-color: var(--color-accent);
+			}
+		}
+	}
+}
+.shop-filters-toggle {
+	cursor: pointer;
+	display: inline-block;
+	margin-right: 30px;
+}
+
+.loop-thumb-wrapper {
+	position: relative;
+	overflow: hidden;
+
+	.button-wrapper {
+		position: absolute;
+		bottom: -60px;
+		opacity: 0;
+		transition: all 0.4s;
+		width: 100%;
+		text-align: center;
+	}
+}
+
+.hover-swap {
+	position: absolute;
+	top: 0;
+	left: 0;
+	opacity: 0;
+	height: 100%;
+	width: 100%;
+	object-fit: fill;
+}
+ul.products li.product {
+	img {
+		transition: all 0.4s;
+	}
+	&:hover {
+		.hover-swap {
+			opacity: 1;
+		}
+		.button-wrapper {
+			bottom: 60px;
+			opacity: 1;
+		}
+		.product-placeholder {
+			right: 15px;
+			opacity: 1;
+		}
+
+	}
+}

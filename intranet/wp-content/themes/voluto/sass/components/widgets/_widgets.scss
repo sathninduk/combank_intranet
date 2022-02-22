@@ -1,0 +1,184 @@
+.widget {
+	margin: 0 0 45px;
+
+	// Make sure select elements fit in widgets.
+	select {
+		max-width: 100%;
+	}
+
+	.widget-title {
+		margin: 0 0 20px;
+		padding-bottom: 15px;
+		border-bottom: 1px solid var(--color-borders);
+		font-size: var(--font-size-lg);
+	}
+
+	a {
+		color: var(--color-text);
+
+		&:hover {
+			color: var(--color-accent);
+		}
+	}
+
+	ul {
+		padding-left: 0;
+		list-style: none;
+		margin: 0;
+
+		li {
+			padding-bottom: 10px;
+
+			&:last-of-type {
+				padding-bottom: 0;
+			}
+		}
+
+		li > ul,
+		.children {
+			padding-left: 20px;
+		}
+	}	
+
+	&.widget_product_search,
+	&.widget_search {
+		.search-field {
+			width: 100%;
+			margin-bottom: 5px;
+		}
+	}
+}
+
+.widget_search {
+	.search-form {
+		position: relative;
+		padding-right: 110px;
+	}
+
+	.search-submit {
+		width: 110px;
+		position: absolute;
+		top: 0;
+		right: 0;
+		border-top-left-radius: 0;
+		border-bottom-left-radius: 0;
+	}
+
+	.search-field {
+		border-top-right-radius: 0;
+		border-bottom-right-radius: 0;
+	}
+}
+
+.widget-area {
+	max-width: 300px;
+}
+
+.widget_text {
+	a {
+		text-decoration: underline;
+	}
+}
+
+.author_wrap {
+	text-align: center;
+	border: 2px solid #ebebeb;
+	padding: 30px;
+
+	img {
+		border-radius: 50%;
+		max-width: 150px;
+	}
+
+	p:last-of-type {
+		margin-bottom: 0;
+	}
+}
+
+
+.widget_recent_entries {
+	.post-date {
+		color: var(--color-gray);
+		font-size: var(--font-size-sm);
+	}
+}
+
+/* Custom recent posts */ 
+.voluto_recent_entries {
+
+	.post-date {
+
+		vertical-align: top;
+		font-size: 13px;
+		font-size: .8125rem;
+		color: var(--color-gray);
+		position: relative;
+
+		& ~ h6 {
+			margin: 0;
+		}
+	}
+
+	ul {
+		padding-top: 15px;
+		counter-reset: section;
+		list-style-type: none;
+	}
+
+	li {
+		margin-bottom: 20px;
+		position: relative;
+
+		.counter {
+			position: absolute;
+			left: 5px;
+			top: -10px;
+			z-index: 11;
+
+			&::before {
+				counter-increment: section;
+				content: counters(section,".") " ";	
+				display: block;
+				text-align: center;
+				line-height: 35px;
+				width: 35px;
+				height: 35px;
+				border-radius: 50%;
+				z-index: 15;
+				font-weight: 700;
+				box-shadow: 0 0 15px rgba(0,0,0,.03);
+				background-color: var(--color-accent);
+				color: #fff;
+			}			
+		}
+
+
+		&:last-of-type {
+			margin-bottom: 0;
+		}
+	}
+
+	.col-md-4 {
+		padding-right: 0;
+	}
+
+	.col-md-12 {
+		padding-left: 45px;
+	}
+	
+	h6 {
+		margin-top: 0;
+	}
+}
+
+.widget-area {
+	.widget_block {
+		h2 {
+			font-size: var(--font-size-lg);
+		}
+	}
+}
+
+.wp-block-latest-comments {
+	padding: 0;
+}

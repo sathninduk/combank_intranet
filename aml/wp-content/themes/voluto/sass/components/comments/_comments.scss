@@ -1,0 +1,156 @@
+.comment-content a {
+	word-wrap: break-word;
+	text-decoration: underline;
+}
+
+.bypostauthor {
+	display: block;
+}
+
+.comment-form {
+	input[type="text"],
+	input[type="email"],
+	input[type="url"] {
+		width: 100%;
+	}
+}
+
+.comment-reply-title {
+	margin-top: 0;
+}
+
+.comments-area {
+
+	.comments-title {
+		margin: 0 0 30px;
+		font-size: var(--font-size-2xl);
+	}
+
+	.comment-author {
+		color: #000;
+
+		a {
+			color: #000;
+		}
+	}
+
+	.logged-in-as {
+		a:not(:hover) {
+			color: #716f6f;
+		}
+	}
+
+	.comment-meta {
+		margin-bottom: 15px;
+	}
+
+	.avatar {
+		border-radius: 50%;
+		vertical-align: top;
+		margin-right: 7px;
+	}
+
+	.comment-metadata {
+		a {
+			font-size: var(--font-size-sm);
+			color: #716f6f;
+			line-height: 1;
+		}
+	}
+
+	.comment-body {
+		padding: 0 0 30px;
+		border-bottom: 1px solid #f0f3f5;
+		margin-bottom: 30px;
+	}
+
+	.comment-author-name {
+		margin-bottom: 15px;
+	}
+	
+	.comment-time {
+		font-size: 14px;
+		font-size: 0.875rem;
+		font-style: italic;
+		color: #716f6f;
+		line-height: 1;
+		margin-bottom: 10px;
+	}
+
+	ol {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+
+		ol {
+			padding-left: 50px;
+
+			.comment-text {
+				border-left: 0;
+			}
+
+			ol {
+				padding-left: 0;
+				margin-left: 0;
+				border-left: 0;
+			}
+		}
+	}
+
+	.comment-content {
+		p {
+			margin-bottom: 15px;
+		}
+	}
+
+	.comment {
+		position: relative;
+	}
+
+	.comment-avatar {
+		position: absolute;
+		margin: 0;
+	}
+
+	.comment-text {
+		margin-left: 100px;
+		padding-left: 30px;
+		border-left: 1px solid rgba(37, 37, 37, 0.1);
+	}
+
+	.comment-reply-link {
+		background-color: var(--color-dark-bg);
+		color: #fff;
+		padding: 7px 12px;
+		border-radius: 5px;
+		line-height: 1;
+		display: inline-block;
+		font-size: var(--font-size-sm);
+		transition: all 0.3s;
+
+		&:hover {
+			background-color: var(--color-accent-dark);
+			color: #fff;
+		}
+	}
+}
+
+@media (min-width: 992px) {
+	.comment-form {
+		display: flex;
+		justify-content: space-between;
+		flex-wrap: wrap;
+
+		& > * {
+			width: 100%;
+			flex: 0 0 100%;
+		}
+
+		.comment-form-author,
+		.comment-form-email,
+		.comment-form-url {
+			width: 31%;
+			flex: 0 0 31%;
+		}
+	}
+}
