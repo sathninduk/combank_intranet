@@ -171,19 +171,21 @@ function voluto_enqueue_gutenberg_assets() {
 	/**
 	 * Fonts
 	 */
-	$body_font		= get_theme_mod( 'voluto_body_font' );
-	$headings_font 	= get_theme_mod( 'voluto_headings_font' );
+    if (get_theme_mod('voluto_body_font') != null) {
+        $body_font		= get_theme_mod( 'voluto_body_font' );
+        $body_font 		= json_decode( $body_font, true );
+        if ( 'Inter' !== $body_font['font'] ) {
+            $css .= 'div.editor-styles-wrapper { font-family:' . esc_attr( $body_font['font'] ) . ',' . esc_attr( $body_font['category'] ) . ';}' . "\n";
+        }
+    }
 
-	$body_font 		= json_decode( $body_font, true );
-	$headings_font 	= json_decode( $headings_font, true );
-
-	if ( 'Inter' !== $body_font['font'] ) {
-		$css .= 'div.editor-styles-wrapper { font-family:' . esc_attr( $body_font['font'] ) . ',' . esc_attr( $body_font['category'] ) . ';}' . "\n";	
-	}
-
-	if ( 'Inter' !== $headings_font['font'] ) {
-		$css .= '.editor-styles-wrapper .editor-post-title .editor-post-title__input, div.editor-styles-wrapper h1, div.editor-styles-wrapper h2,div.editor-styles-wrapper h3,div.editor-styles-wrapper h4,div.editor-styles-wrapper h5,div.editor-styles-wrapper h6 { font-family:' . esc_attr( $headings_font['font'] ) . ',' . esc_attr( $headings_font['category'] ) . ';}' . "\n";
-	}
+    if (get_theme_mod('voluto_headings_font') != null) {
+        $headings_font = get_theme_mod('voluto_headings_font');
+        $headings_font = json_decode($headings_font, true);
+        if ('Inter' !== $headings_font['font']) {
+            $css .= '.editor-styles-wrapper .editor-post-title .editor-post-title__input, div.editor-styles-wrapper h1, div.editor-styles-wrapper h2,div.editor-styles-wrapper h3,div.editor-styles-wrapper h4,div.editor-styles-wrapper h5,div.editor-styles-wrapper h6 { font-family:' . esc_attr($headings_font['font']) . ',' . esc_attr($headings_font['category']) . ';}' . "\n";
+        }
+    }
 
 	wp_add_inline_style( 'voluto-block-editor-styles', $css );	
 

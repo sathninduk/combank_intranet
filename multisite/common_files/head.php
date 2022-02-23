@@ -1,5 +1,3 @@
 <?php
-echo "
-<link rel='stylesheet' href='../common_files/style.css' />
-";
+echo "<link rel='stylesheet' href='/common_files/style.css' />";
 ?>
