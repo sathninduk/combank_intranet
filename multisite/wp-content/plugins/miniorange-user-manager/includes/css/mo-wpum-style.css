@@ -1,0 +1,528 @@
+ .mo_wpum_help_title {
+	font-size:13px;
+	width:100%;
+	color:#1B79AE;
+	cursor:pointer;
+	font-weight: bold;
+}
+.mo_wpum_help_desc {
+	font-size:13px;
+	border-left:solid 2px rgba(128, 128, 128, 0.65);
+	margin-top:10px;
+	padding-left:10px;
+	margin-bottom:20px
+}
+.mo_wpum_help {
+	width: 95%;
+}
+.mo_wpum_help_cell {
+	padding: 20px;
+	border-bottom: solid 1px grey;
+}
+ .mo_wpum_support_layout {
+       width: 93%;
+       background-color:#FFFFFF; 
+       border:1px solid #CCCCCC; 
+       padding-left:20px; 
+       height:409px;
+}
+
+.mo_wpum_table_layout {
+	background-color:#FFFFFF; 
+	border:1px solid #CCCCCC; 
+	margin-bottom: 10px;
+	height:auto;
+	padding:0px 10px 10px 10px;
+	min-height:400px;
+}
+
+.mo_wpum_table_layout1 {
+	background-color:#FFFFFF; 
+	border:1px solid #CCCCCC; 
+	margin-bottom: 10px;
+	height:auto;
+	padding:-1px 10px 10px 10px;
+}
+
+.left_div {
+	width:25%;
+	margin-right: 1%;
+}
+
+.right_div {
+	width:73.6%
+}
+
+@media screen and (max-width: 785px) {
+	.right_div {
+		width:98%;
+	}
+	.left_div {
+		width:98%;
+	}
+}
+
+.role_header {
+	padding:10px 24px 10px 20px;
+}
+
+.capabilities_header {
+	padding:10px 24px 10px 20px;
+}
+
+.baner_text {
+	margin:5px;
+	font-weight: bold;
+	font-size: 14px;
+}
+
+.header_background {
+	background-color:rgba(128, 128, 128, 0.16);
+	border-bottom:1px solid rgba(128, 128, 128, 0.35);
+}
+
+.mo_wpum_table_layout_container {
+	padding:7px 24px 10px 20px;
+}
+
+.mo_wpum_table_layout h3 a {
+	text-decoration:none;
+}
+
+.mo_wpum_table_layout .subheading {
+	font-weight: bold;
+	font-size: 14px;
+	margin:3% 3% 3% 0;
+}
+
+.mo_wpum_table_layout input[type=text] {
+	width: 80%;
+}
+
+.mo_wpum_table_layout input[type=checkbox] {
+	margin-right: 8px;
+}
+.mo_wpum_table_textbox {
+	width:80%;
+}
+.mo_wpum_table_contact {
+	width:95%;
+}
+.mo_wpum_settings_table,
+.mo_wpum_display_table {
+	width: 100%;
+}
+.mo_wpum_settings_table tr td:first-child {
+	width: 30%;
+}
+
+.mo_wpum_display_table tr td:first-child {
+	width: 40%;
+}
+
+.mo_wpum_display_table .mo_wpum_table_textbox {
+	width:70%;
+}
+.mo_wpum_login_wid li {
+	margin:5px;
+	list-style-type:none;
+}
+
+.mo-registration-app-icons>a>img {
+	width:35px !important; 
+	height:35px !important;
+	margin:8px 0px;
+	display: inline !important;
+}
+
+.mo-registration-app-share-icons {
+width:35px !important; 
+height:35px !important;
+display:inline !important;
+}
+
+.mo-registration-share-link {
+	     border-bottom: 0px !important;
+		box-sizing:border-box !important;
+}
+
+.circle {
+	
+	border-radius: 999px !important;
+}
+
+
+.oval {
+border-radius: 4px !important;
+}
+
+.round {
+	
+	border-radius: 999px !important;
+}
+
+
+.roundededges {
+border-radius: 4px !important;
+}
+
+.mo-registration-app-icons>p {
+margin:0px !important;
+
+}
+
+.mo-registration-app-icons {
+	display:inline !important;
+}
+
+.theme-checkbox {
+	vertical-align :super !important;
+} 
+
+a{
+	cursor:pointer;
+	
+}
+
+.mo_wpum_display_interface {
+	width:100%;
+}
+
+.mo_wpum_vertical {
+	display:inline-block !important;
+	 overflow: visible;
+    z-index: 10000000;
+    padding: 10px;
+    border-radius: 4px;
+    opacity: 1;
+    -webkit-box-sizing: content-box!important;
+    -moz-box-sizing: content-box!important;
+    box-sizing: content-box!important;
+	width:40px;
+	position:fixed;
+}
+
+.btn-customtheme {
+	color:#ffffff !important;
+}
+
+.custom-login-button {
+       text-align:center !important;
+       color:white !important;
+       padding-top:8px !important;
+	   box-sizing: border-box !important;
+}
+
+.btn-custom-dec {
+text-decoration:none !important;	
+}
+
+.mo-custom-share-icon {
+	box-sizing:border-box !important;
+}
+
+.mo_wpum_title_panel {
+    color: #1B79AE;
+    cursor: pointer;
+    font-weight: bold;
+}
+	
+#TB_window, #TB_window #TB_ajaxContent {
+	width:500px!important;
+}
+
+.mo_wpum_pricing_table {
+	text-align:center;
+	font-size: 15px !important;
+}
+
+.mo_wpum_pricing_header {
+	color: #fff !important;
+	margin: 8px !important;
+}
+
+.mo_wpum_pricing_sub_header {
+	margin: 4px!important;
+	color: #fff !important;
+}
+
+.mo_wpum_pricing_text {
+	font-size: 15px !important;
+	color: #fff !important;
+	
+}
+
+.mo_wpum_pricing_free_tab {
+	background-color: rgba(34, 153, 221, 0.82)!important;
+}
+
+.mo_wpum_pricing_paid_tab {
+	background-color: #1a71a4 !important;
+}
+
+.mo_wpum_thumbnail {
+	width:250px;
+	padding: 4px;
+
+	margin-bottom: 10px;
+	line-height: 1.42857143;
+	background-color: #fff;
+	border: 1px solid #ddd;
+	border-radius: 4px;
+	-webkit-transition: border .2s ease-in-out;
+	-o-transition: border .2s ease-in-out;
+	transition: border .2s ease-in-out
+}
+
+.mo_wpum_msgs {
+	margin-bottom:7px;
+}
+
+.mo_wpum_success_container {
+	background-color: rgba(185, 228, 155, 0.56) !important;
+	margin-left: 3px !important;
+
+}
+
+.mo_wpum_error_container {
+	background-color: rgba(251, 102, 0, 0.29) !important;
+	margin-left: 3px !important;
+}
+
+.mo_wpum_textbox:focus {
+	border-color: #5B9DD9;
+	box-shadow: 0px 0px 2px rgba(30, 140, 190, 0.8);
+}
+
+.button-primary,
+.button-secondary {
+    background: #00A0D2 none repeat scroll 0% 0%;
+	border-color: #0073AA;
+	box-shadow: 0px 1px 0px rgba(120, 200, 230, 0.5) inset, 0px 1px 0px rgba(0, 0, 0, 0.15);
+	color: #FFF;
+	text-decoration: none;
+	cursor: pointer;
+	border-width: 1px;
+	border-style: solid;
+	border-radius: 3px;
+	white-space: nowrap;
+	box-sizing: border-box;
+	line-height: 28px;
+	padding: 0px 12px 0px;
+	font-size:13px;
+}
+
+.button:hover {
+	background-color: #0073AA;
+}
+	
+.close {
+	float:right;
+	text-decoration: none;
+	font-size:13px;
+	cursor: pointer;
+}
+
+.close:focus,
+.close:hover {
+	color: #0085ba;
+}
+
+.miniorange_otp_token_submit {
+	 background: #00A0D2 none repeat scroll 0% 0% !important;
+	border-color: #0073AA !important;
+	box-shadow: 0px 1px 0px rgba(120, 200, 230, 0.5) inset, 0px 1px 0px rgba(0, 0, 0, 0.15) !important;
+	color: #FFF !important;
+	text-decoration: none !important;
+	cursor: pointer !important; 
+	border-width: 1px !important;
+	border-style: solid !important;
+	border-radius: 3px !important;
+	white-space: nowrap !important;
+	box-sizing: border-box !important;
+	line-height: 28px !important;
+	padding: 0px 12px 0px !important;
+	font-size:13px !important;
+}
+
+.miniorange_otp_token_submit:hover {
+	background-color: #0073AA !important;
+}
+
+.mo-modal-backdrop {
+	opacity:1;
+}
+	
+.mo_wpum_pricing_table {
+	text-align:center;
+	font-size: 15px !important;
+}
+
+.mo_wpum_pricing_header {
+	color: #fff !important;
+	margin: 8px !important;
+}
+
+.mo_wpum_pricing_sub_header {
+	margin: 4px !important;
+	color: #fff !important;
+}
+
+.mo_wpum_pricing_text {
+	font-size: 15px !important;
+	color: #fff !important;
+	
+}
+
+.mo_wpum_pricing_free_tab {
+	background-color: rgba(34, 153, 221, 0.82)!important;
+}
+
+.mo_wpum_pricing_paid_tab {
+	background-color: #1a71a4 !important;
+}
+
+.mo_wpum_thumbnail {
+	width:250px;
+	padding: 4px;
+
+	margin-bottom: 10px;
+	line-height: 1.42857143;
+	background-color: #fff;
+}
+
+.form_preview {
+	cursor:pointer;
+}
+
+.mo-form-control {
+	display: block;
+    width:90%;
+	font-size:15px!important;
+	border-width: 1px;
+    border-style: solid;
+    border-radius: 3px;
+    text-decoration: none;
+	cursor:pointer;
+}
+
+.mo-form-control option {
+    text-align:center;	
+}
+
+pre {
+     overflow: auto;
+    word-wrap: normal;
+    white-space: pre-wrap;
+    background: #eaeaea;
+    padding:2%;
+}
+
+.mo_wpum_main_header {
+    margin: 1em 0;
+}
+
+.wpum_modal_background {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+    overflow: hidden;
+    opacity: 0.7;
+    background:#000;
+    outline: 0;
+}
+
+.wpum_modal {
+	position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+    overflow: hidden;
+    outline: 0;
+    padding-top:150px;
+}
+
+.wpum_modal_dialog {
+	width: 500px;
+    margin: 30px auto;
+    z-index:99;
+    opacity:1;
+}
+
+.wpum_modal_body {
+	background: white;
+	padding: 15px;
+}
+
+.wpum_modal_header {
+	padding: 10px;
+	margin-top:	-24%;
+    background: #AFAFAF;
+}
+
+.wpum_modal_footer {
+	border-top:1px solid #e5e5e5;
+	padding:7px;
+	background:white;
+	text-align:right;
+}
+
+.user_role_selector {
+	border-right: 1px solid #ccc;
+    width: 25%;
+}
+
+.center {
+	display: block;
+	text-align: center;
+}
+
+.right {
+	float:right;
+}
+
+.left {
+	float:left;
+}
+
+.capability {
+	width: 225px;
+	display: inline-block;
+}
+
+.wpum_control_label {
+	display: inline-block;
+    max-width: 100%;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.wpum_action_btn {
+	width: 100%;
+    margin-top: 3%!important;
+}
+
+.main-tabs {
+	margin-top:5px;
+}
+
+.wp-list-table .column-username { 
+	width: 25%; 
+}
+
+.wp-list-table .notif_count { 
+	text-align:center; 
+}
+
+.wp-list-table .column-notif_count { 
+	width: 10%; 
+}
+
+.no-items {
+	text-align:center;
+}
