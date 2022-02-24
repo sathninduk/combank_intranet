@@ -1,0 +1,1318 @@
+# Copyright (C) 2021 voluto
+# This file is distributed under the same license as the voluto package.
+msgid ""
+msgstr ""
+"Project-Id-Version: voluto\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language-Team: elfWP <hello@elfwp.com>\n"
+"Last-Translator: elfWP <hello@elfwp.com>\n"
+"Report-Msgid-Bugs-To: https://elfwp.com/contact/\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;_ex:1,2c;_n:1,2;_n_noop:1,2;_nx:1,2,4c;_nx_noop:1,2,3c;_x:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: 404.php:17
+msgid "Oops! That page can&rsquo;t be found."
+msgstr ""
+
+#: 404.php:21
+msgid "It looks like nothing was found at this location. Maybe try one of the links below or a search?"
+msgstr ""
+
+#: 404.php:30
+msgid "Most Used Categories"
+msgstr ""
+
+#. translators: %1$s: smiley
+#: 404.php:48
+msgid "Try looking in the monthly archives. %1$s"
+msgstr ""
+
+#. translators: 1: comment count number, 2: title.
+#: comments.php:37
+msgctxt "comments title"
+msgid "%1$s comment"
+msgid_plural "%1$s comments"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:33
+msgid "1 comment"
+msgstr ""
+
+#: comments.php:64
+msgid "Comments are closed."
+msgstr ""
+
+#: functions.php:56
+msgid "Primary"
+msgstr ""
+
+#: functions.php:57
+msgid "Top bar menu"
+msgstr ""
+
+#: functions.php:115
+msgid "Small"
+msgstr ""
+
+#: functions.php:116
+msgctxt "Font size"
+msgid "S"
+msgstr ""
+
+#: functions.php:121
+msgid "Normal"
+msgstr ""
+
+#: functions.php:122
+msgctxt "Font size"
+msgid "N"
+msgstr ""
+
+#: functions.php:127
+msgid "Large"
+msgstr ""
+
+#: functions.php:128
+msgctxt "Font size"
+msgid "L"
+msgstr ""
+
+#: functions.php:133
+msgid "Larger"
+msgstr ""
+
+#: functions.php:134
+msgctxt "Font size"
+msgid "XL"
+msgstr ""
+
+#: functions.php:139
+msgid "Extra large"
+msgstr ""
+
+#: functions.php:140
+msgctxt "Font size"
+msgid "XXL"
+msgstr ""
+
+#: functions.php:145
+msgid "Huge"
+msgstr ""
+
+#: functions.php:146
+msgctxt "Font size"
+msgid "XXXL"
+msgstr ""
+
+#: functions.php:151
+msgid "Gigantic"
+msgstr ""
+
+#: functions.php:152
+msgctxt "Font size"
+msgid "XXXXL"
+msgstr ""
+
+#: functions.php:192
+msgid "Sidebar"
+msgstr ""
+
+#: functions.php:194, functions.php:230
+msgid "Add widgets here."
+msgstr ""
+
+#. translators: %s: footer area number
+#: functions.php:228
+msgid "Footer area %s"
+msgstr ""
+
+#: header.php:26
+msgid "Skip to content"
+msgstr ""
+
+#: inc/block-styles.php:18
+msgid "With counter"
+msgstr ""
+
+#: inc/block-styles.php:26, inc/customizer/options/options-blog.php:367
+msgid "Solid"
+msgstr ""
+
+#: inc/block-styles.php:35
+msgid "No top margin"
+msgstr ""
+
+#: inc/class-voluto-breadcrumb-trail.php:277
+msgid "Browse:"
+msgstr ""
+
+#: inc/class-voluto-breadcrumb-trail.php:278
+msgctxt "breadcrumbs aria label"
+msgid "Breadcrumbs"
+msgstr ""
+
+#: inc/class-voluto-breadcrumb-trail.php:279
+msgid "Home"
+msgstr ""
+
+#: inc/class-voluto-breadcrumb-trail.php:280
+msgid "404 Not Found"
+msgstr ""
+
+#: inc/class-voluto-breadcrumb-trail.php:281, inc/customizer/options/options-breadcrumbs.php:41
+msgid "Archives"
+msgstr ""
+
+#. translators: %s is the search query.
+#: inc/class-voluto-breadcrumb-trail.php:283
+msgid "Search results for: %s"
+msgstr ""
+
+#. translators: %s is the page number.
+#: inc/class-voluto-breadcrumb-trail.php:285
+msgid "Page %s"
+msgstr ""
+
+#. translators: %s is the page number.
+#: inc/class-voluto-breadcrumb-trail.php:287
+msgid "Comment Page %s"
+msgstr ""
+
+#. translators: Minute archive title. %s is the minute time format.
+#: inc/class-voluto-breadcrumb-trail.php:289
+msgid "Minute %s"
+msgstr ""
+
+#. translators: Weekly archive title. %s is the week date format.
+#: inc/class-voluto-breadcrumb-trail.php:291
+msgid "Week %s"
+msgstr ""
+
+#: inc/class-voluto-breadcrumb-trail.php:751
+msgctxt "minute and hour archives time format"
+msgid "g:i a"
+msgstr ""
+
+#: inc/class-voluto-breadcrumb-trail.php:768
+msgctxt "minute archives time format"
+msgid "i"
+msgstr ""
+
+#: inc/class-voluto-breadcrumb-trail.php:785
+msgctxt "hour archives time format"
+msgid "g a"
+msgstr ""
+
+#: inc/class-voluto-breadcrumb-trail.php:801, inc/class-voluto-breadcrumb-trail.php:830, inc/class-voluto-breadcrumb-trail.php:857, inc/class-voluto-breadcrumb-trail.php:884, inc/class-voluto-breadcrumb-trail.php:1224
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr ""
+
+#: inc/class-voluto-breadcrumb-trail.php:802, inc/class-voluto-breadcrumb-trail.php:858, inc/class-voluto-breadcrumb-trail.php:1228
+msgctxt "monthly archives date format"
+msgid "F"
+msgstr ""
+
+#: inc/class-voluto-breadcrumb-trail.php:803, inc/class-voluto-breadcrumb-trail.php:1232
+msgctxt "daily archives date format"
+msgid "j"
+msgstr ""
+
+#: inc/class-voluto-breadcrumb-trail.php:831
+msgctxt "weekly archives date format"
+msgid "W"
+msgstr ""
+
+#: inc/class-voluto-footer.php:50
+msgid "Your cart"
+msgstr ""
+
+#: inc/class-voluto-footer.php:86, inc/customizer/options/options-footer.php:68
+msgid "Have something on your mind?"
+msgstr ""
+
+#: inc/class-voluto-footer.php:88, inc/customizer/options/options-footer.php:82
+msgid "Say hello"
+msgstr ""
+
+#: inc/class-voluto-footer.php:153, inc/customizer/options/options-footer.php:556
+msgid "Powered by the %1$1s WordPress theme"
+msgstr ""
+
+#: inc/class-voluto-header.php:269
+msgid "Toggle mobile menu"
+msgstr ""
+
+#: inc/class-voluto-header.php:314, inc/customizer/options/options-top-bar.php:182
+msgid "Your custom text"
+msgstr ""
+
+#: inc/class-voluto-header.php:384, inc/customizer/options/options-header.php:269
+msgid "Click here"
+msgstr ""
+
+#: inc/class-voluto-header.php:463, inc/customizer/options/options-top-bar.php:200
+msgid "+999.999.999"
+msgstr ""
+
+#: inc/class-voluto-header.php:464, inc/customizer/options/options-top-bar.php:217
+msgid "office@example.org"
+msgstr ""
+
+#: inc/class-voluto-loop-post.php:111, inc/customizer/options/options-blog.php:499
+msgid "Read more"
+msgstr ""
+
+#: inc/class-voluto-loop-post.php:164, inc/class-voluto-single-post-page.php:154, inc/class-voluto-single-post-page.php:128
+msgid "Pages:"
+msgstr ""
+
+#: inc/class-voluto-page-metabox.php:32
+msgid "Voluto page options"
+msgstr ""
+
+#: inc/class-voluto-page-metabox.php:98
+msgid "Page layout"
+msgstr ""
+
+#: inc/class-voluto-page-metabox.php:100, inc/customizer/options/options-blog.php:216
+msgid "Regular"
+msgstr ""
+
+#: inc/class-voluto-page-metabox.php:101, inc/customizer/options/options-blog-single.php:53
+msgid "No sidebar"
+msgstr ""
+
+#: inc/class-voluto-page-metabox.php:102
+msgid "Stretched (for page builders)"
+msgstr ""
+
+#: inc/class-voluto-page-metabox.php:106
+msgid "Disable the title"
+msgstr ""
+
+#: inc/class-voluto-page-metabox.php:109
+msgid "Disable the featured image"
+msgstr ""
+
+#: inc/class-voluto-page-metabox.php:112
+msgid "Disable the header"
+msgstr ""
+
+#: inc/class-voluto-page-metabox.php:115
+msgid "Disable the footer"
+msgstr ""
+
+#. translators: %s: Name of current post. Only visible to screen readers
+#: inc/class-voluto-single-post-page.php:141
+msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
+msgstr ""
+
+#: inc/class-voluto-single-post-page.php:299
+msgid "About the author"
+msgstr ""
+
+#: inc/customizer/custom-controls/class_voluto_toggle.php:25
+msgid "Configure"
+msgstr ""
+
+#: inc/customizer/custom-controls/repeater/class_voluto_repeater.php:32
+msgid "Add"
+msgstr ""
+
+#: inc/customizer/custom-controls/typography/class_voluto_typography.php:81
+msgid "Font family"
+msgstr ""
+
+#: inc/customizer/custom-controls/typography/class_voluto_typography.php:106
+msgid "Font weight"
+msgstr ""
+
+#: inc/customizer/customizer.php:88, inc/customizer/options/options-colors.php:16
+msgid "General"
+msgstr ""
+
+#: inc/customizer/options/options-blog-single.php:13, inc/customizer/options/options-breadcrumbs.php:39
+msgid "Single posts"
+msgstr ""
+
+#: inc/customizer/options/options-blog-single.php:28, inc/customizer/options/options-blog-single.php:430, inc/customizer/options/options-blog.php:35, inc/customizer/options/options-blog.php:530, inc/customizer/options/options-footer.php:501, inc/customizer/options/options-header.php:74, inc/customizer/options/options-header.php:144, inc/customizer/options/options-header.php:390, inc/customizer/options/options-top-bar.php:29, inc/customizer/options/options-top-bar.php:270
+msgid "Settings"
+msgstr ""
+
+#: inc/customizer/options/options-blog-single.php:29, inc/customizer/options/options-blog-single.php:431, inc/customizer/options/options-blog.php:36, inc/customizer/options/options-blog.php:531, inc/customizer/options/options-breadcrumbs.php:76, inc/customizer/options/options-footer.php:202, inc/customizer/options/options-footer.php:353, inc/customizer/options/options-footer.php:591, inc/customizer/options/options-header.php:75, inc/customizer/options/options-header.php:391, inc/customizer/options/options-top-bar.php:30, inc/customizer/options/options-top-bar.php:271
+msgid "Styling"
+msgstr ""
+
+#: inc/customizer/options/options-blog-single.php:48
+msgid "Post layout"
+msgstr ""
+
+#: inc/customizer/options/options-blog-single.php:57
+msgid "Sidebar Left"
+msgstr ""
+
+#: inc/customizer/options/options-blog-single.php:61
+msgid "Sidebar Right"
+msgstr ""
+
+#: inc/customizer/options/options-blog-single.php:77
+msgid "Post header"
+msgstr ""
+
+#: inc/customizer/options/options-blog-single.php:94, inc/customizer/options/options-blog.php:51, inc/customizer/options/options-footer.php:517, inc/customizer/options/options-header.php:96, inc/customizer/options/options-hero.php:68
+msgid "Layout"
+msgstr ""
+
+#: inc/customizer/options/options-blog-single.php:99
+msgid "Standard"
+msgstr ""
+
+#: inc/customizer/options/options-blog-single.php:103
+msgid "Overlay"
+msgstr ""
+
+#: inc/customizer/options/options-blog-single.php:107
+msgid "Overlap"
+msgstr ""
+
+#: inc/customizer/options/options-blog-single.php:125
+msgid "Alignment"
+msgstr ""
+
+#: inc/customizer/options/options-blog-single.php:164
+msgid "Container type"
+msgstr ""
+
+#: inc/customizer/options/options-blog-single.php:168, inc/customizer/options/options-footer.php:339, inc/customizer/options/options-footer.php:546, inc/customizer/options/options-header.php:130, inc/customizer/options/options-hero.php:86, inc/customizer/options/options-top-bar.php:69
+msgid "Contain"
+msgstr ""
+
+#: inc/customizer/options/options-blog-single.php:169, inc/customizer/options/options-hero.php:87
+msgid "Wide"
+msgstr ""
+
+#: inc/customizer/options/options-blog-single.php:170, inc/customizer/options/options-footer.php:340, inc/customizer/options/options-footer.php:547, inc/customizer/options/options-header.php:131, inc/customizer/options/options-hero.php:88, inc/customizer/options/options-top-bar.php:70
+msgid "Full"
+msgstr ""
+
+#: inc/customizer/options/options-blog-single.php:188
+msgid "Use featured image for header background"
+msgstr ""
+
+#: inc/customizer/options/options-blog-single.php:213
+msgid "Height"
+msgstr ""
+
+#: inc/customizer/options/options-blog-single.php:238, inc/customizer/options/options-blog.php:189, inc/customizer/options/options-hero.php:271
+msgid "Elements"
+msgstr ""
+
+#: inc/customizer/options/options-blog-single.php:255, inc/customizer/options/options-blog.php:193
+msgid "Featured image"
+msgstr ""
+
+#: inc/customizer/options/options-blog-single.php:273
+msgid "Author & post date"
+msgstr ""
+
+#: inc/customizer/options/options-blog-single.php:291
+msgid "Post categories"
+msgstr ""
+
+#: inc/customizer/options/options-blog-single.php:309
+msgid "Post tags"
+msgstr ""
+
+#: inc/customizer/options/options-blog-single.php:327
+msgid "Post sharing"
+msgstr ""
+
+#: inc/customizer/options/options-blog-single.php:349, inc/template-tags.php:259
+msgid "Post navigation"
+msgstr ""
+
+#: inc/customizer/options/options-blog-single.php:367
+msgid "Author box"
+msgstr ""
+
+#: inc/customizer/options/options-blog-single.php:385
+msgid "Related posts"
+msgstr ""
+
+#: inc/customizer/options/options-blog-single.php:403
+msgid "Comments"
+msgstr ""
+
+#: inc/customizer/options/options-blog-single.php:415
+msgid "Single posts styling"
+msgstr ""
+
+#: inc/customizer/options/options-blog-single.php:447
+msgid "Separators"
+msgstr ""
+
+#: inc/customizer/options/options-blog-single.php:461
+msgid "Banner overlay"
+msgstr ""
+
+#: inc/customizer/options/options-blog-single.php:476, inc/customizer/options/options-blog.php:547
+msgid "Post title"
+msgstr ""
+
+#: inc/customizer/options/options-blog-single.php:494, inc/customizer/options/options-blog-single.php:582, inc/customizer/options/options-blog.php:565, inc/customizer/options/options-blog.php:653, inc/customizer/options/options-footer.php:239, inc/customizer/options/options-footer.php:629, inc/customizer/options/options-top-bar.php:310
+msgid "Color"
+msgstr ""
+
+#: inc/customizer/options/options-blog-single.php:518, inc/customizer/options/options-blog-single.php:606, inc/customizer/options/options-blog.php:589, inc/customizer/options/options-blog.php:677, inc/customizer/options/options-buttons.php:189, inc/customizer/options/options-typography.php:70
+msgid "Font size"
+msgstr ""
+
+#: inc/customizer/options/options-blog-single.php:543, inc/customizer/options/options-blog-single.php:631, inc/customizer/options/options-blog.php:614, inc/customizer/options/options-blog.php:702, inc/customizer/options/options-buttons.php:213
+msgid "Text transform"
+msgstr ""
+
+#: inc/customizer/options/options-blog-single.php:547, inc/customizer/options/options-blog-single.php:635, inc/customizer/options/options-blog.php:618, inc/customizer/options/options-blog.php:706, inc/customizer/options/options-buttons.php:217
+msgid "-"
+msgstr ""
+
+#: inc/customizer/options/options-blog-single.php:548, inc/customizer/options/options-blog-single.php:636, inc/customizer/options/options-blog.php:619, inc/customizer/options/options-blog.php:707, inc/customizer/options/options-buttons.php:218
+msgid "aa"
+msgstr ""
+
+#: inc/customizer/options/options-blog-single.php:549, inc/customizer/options/options-blog-single.php:637, inc/customizer/options/options-blog.php:620, inc/customizer/options/options-blog.php:708, inc/customizer/options/options-buttons.php:219
+msgid "Aa"
+msgstr ""
+
+#: inc/customizer/options/options-blog-single.php:550, inc/customizer/options/options-blog-single.php:638, inc/customizer/options/options-blog.php:621, inc/customizer/options/options-blog.php:709, inc/customizer/options/options-buttons.php:220
+msgid "AA"
+msgstr ""
+
+#: inc/customizer/options/options-blog-single.php:564, inc/customizer/options/options-blog.php:635
+msgid "Meta"
+msgstr ""
+
+#: inc/customizer/options/options-blog.php:11
+msgid "Blog"
+msgstr ""
+
+#: inc/customizer/options/options-blog.php:20
+msgid "Blog archives"
+msgstr ""
+
+#: inc/customizer/options/options-blog.php:68
+msgid "Blog layout"
+msgstr ""
+
+#: inc/customizer/options/options-blog.php:73
+msgid "List"
+msgstr ""
+
+#: inc/customizer/options/options-blog.php:77
+msgid "Grid"
+msgstr ""
+
+#: inc/customizer/options/options-blog.php:81
+msgid "Classic"
+msgstr ""
+
+#: inc/customizer/options/options-blog.php:85
+msgid "Masonry"
+msgstr ""
+
+#: inc/customizer/options/options-blog.php:102
+msgid "Columns"
+msgstr ""
+
+#: inc/customizer/options/options-blog.php:127
+msgid "Sidebar layout"
+msgstr ""
+
+#: inc/customizer/options/options-blog.php:132, inc/customizer/options/options-blog.php:163, inc/customizer/options/options-blog.php:290, inc/customizer/options/options-top-bar.php:77
+msgid "None"
+msgstr ""
+
+#: inc/customizer/options/options-blog.php:136
+msgid "Left"
+msgstr ""
+
+#: inc/customizer/options/options-blog.php:140
+msgid "Right"
+msgstr ""
+
+#: inc/customizer/options/options-blog.php:160
+msgid "Posts navigation"
+msgstr ""
+
+#: inc/customizer/options/options-blog.php:164
+msgid "Pagination"
+msgstr ""
+
+#: inc/customizer/options/options-blog.php:165
+msgid "Older/Newer posts links"
+msgstr ""
+
+#: inc/customizer/options/options-blog.php:178
+msgid "Post card"
+msgstr ""
+
+#: inc/customizer/options/options-blog.php:190
+msgid "Drag and drop post elements"
+msgstr ""
+
+#: inc/customizer/options/options-blog.php:194, inc/customizer/options/options-blog.php:347
+msgid "Categories"
+msgstr ""
+
+#: inc/customizer/options/options-blog.php:195
+msgid "Title"
+msgstr ""
+
+#: inc/customizer/options/options-blog.php:196, inc/customizer/options/options-blog.php:403
+msgid "Excerpt"
+msgstr ""
+
+#: inc/customizer/options/options-blog.php:197, inc/customizer/options/options-blog.php:489
+msgid "Read more link"
+msgstr ""
+
+#: inc/customizer/options/options-blog.php:198, inc/customizer/options/options-blog.php:438
+msgid "Author & Date"
+msgstr ""
+
+#: inc/customizer/options/options-blog.php:213
+msgid "Card style"
+msgstr ""
+
+#: inc/customizer/options/options-blog.php:217
+msgid "Boxed"
+msgstr ""
+
+#: inc/customizer/options/options-blog.php:231
+msgid "Content alignment"
+msgstr ""
+
+#: inc/customizer/options/options-blog.php:251
+msgid "Element spacing"
+msgstr ""
+
+#: inc/customizer/options/options-blog.php:270
+msgid "Featured images"
+msgstr ""
+
+#: inc/customizer/options/options-blog.php:287
+msgid "Hover effects"
+msgstr ""
+
+#: inc/customizer/options/options-blog.php:291
+msgid "Opacity"
+msgstr ""
+
+#: inc/customizer/options/options-blog.php:292
+msgid "Zoom in"
+msgstr ""
+
+#: inc/customizer/options/options-blog.php:293
+msgid "Zoom in & rotate"
+msgstr ""
+
+#: inc/customizer/options/options-blog.php:308
+msgid "Image radius"
+msgstr ""
+
+#: inc/customizer/options/options-blog.php:332
+msgid "Stretch image to card edges"
+msgstr ""
+
+#: inc/customizer/options/options-blog.php:364
+msgid "Style"
+msgstr ""
+
+#: inc/customizer/options/options-blog.php:368
+msgid "Link"
+msgstr ""
+
+#: inc/customizer/options/options-blog.php:385
+msgid "Position"
+msgstr ""
+
+#: inc/customizer/options/options-blog.php:388
+msgid "Default"
+msgstr ""
+
+#: inc/customizer/options/options-blog.php:389
+msgid "Over image"
+msgstr ""
+
+#: inc/customizer/options/options-blog.php:420
+msgid "Excerpt length"
+msgstr ""
+
+#: inc/customizer/options/options-blog.php:455, inc/customizer/options/options-hero.php:308
+msgid "Show author"
+msgstr ""
+
+#: inc/customizer/options/options-blog.php:474, inc/customizer/options/options-hero.php:327
+msgid "Show date"
+msgstr ""
+
+#: inc/customizer/options/options-blog.php:505
+msgid "Read more text"
+msgstr ""
+
+#: inc/customizer/options/options-blog.php:515
+msgid "Blog archives styling"
+msgstr ""
+
+#: inc/customizer/options/options-breadcrumbs.php:16
+msgid "Breadcrumbs"
+msgstr ""
+
+#: inc/customizer/options/options-breadcrumbs.php:36
+msgid "Display breadcrumbs on:"
+msgstr ""
+
+#: inc/customizer/options/options-breadcrumbs.php:38
+msgid "Blog home"
+msgstr ""
+
+#: inc/customizer/options/options-breadcrumbs.php:40
+msgid "Single pages"
+msgstr ""
+
+#: inc/customizer/options/options-breadcrumbs.php:42, inc/customizer/options/options-header.php:177
+msgid "Search"
+msgstr ""
+
+#: inc/customizer/options/options-breadcrumbs.php:56
+msgid "Separator"
+msgstr ""
+
+#: inc/customizer/options/options-breadcrumbs.php:90, inc/customizer/options/options-footer.php:220, inc/customizer/options/options-footer.php:372, inc/customizer/options/options-footer.php:609, inc/customizer/options/options-header.php:425, inc/customizer/options/options-header.php:511, inc/customizer/options/options-header.php:598, inc/customizer/options/options-header.php:650, inc/customizer/options/options-top-bar.php:291
+msgid "Background color"
+msgstr ""
+
+#: inc/customizer/options/options-breadcrumbs.php:104, inc/customizer/options/options-footer.php:429
+msgid "Links color"
+msgstr ""
+
+#: inc/customizer/options/options-breadcrumbs.php:118, inc/customizer/options/options-header.php:444, inc/customizer/options/options-header.php:530, inc/customizer/options/options-header.php:617, inc/customizer/options/options-header.php:669
+msgid "Text color"
+msgstr ""
+
+#: inc/customizer/options/options-breadcrumbs.php:142
+msgid "Padding"
+msgstr ""
+
+#: inc/customizer/options/options-buttons.php:13
+msgid "Buttons"
+msgstr ""
+
+#: inc/customizer/options/options-buttons.php:29
+msgid "Button background color"
+msgstr ""
+
+#: inc/customizer/options/options-buttons.php:48
+msgid "Button color"
+msgstr ""
+
+#: inc/customizer/options/options-buttons.php:67
+msgid "Button background color (hover)"
+msgstr ""
+
+#: inc/customizer/options/options-buttons.php:86
+msgid "Button color (hover)"
+msgstr ""
+
+#: inc/customizer/options/options-buttons.php:108
+msgid "Vertical padding"
+msgstr ""
+
+#: inc/customizer/options/options-buttons.php:139
+msgid "Horizontal padding"
+msgstr ""
+
+#: inc/customizer/options/options-buttons.php:163
+msgid "Border radius"
+msgstr ""
+
+#: inc/customizer/options/options-buttons.php:234, inc/customizer/options/options-typography.php:116
+msgid "Letter spacing"
+msgstr ""
+
+#: inc/customizer/options/options-colors.php:34
+msgid "Body text color"
+msgstr ""
+
+#: inc/customizer/options/options-colors.php:52
+msgid "Content link color"
+msgstr ""
+
+#: inc/customizer/options/options-colors.php:70
+msgid "Content link color (hover)"
+msgstr ""
+
+#: inc/customizer/options/options-colors.php:84, inc/customizer/options/options-typography.php:136
+msgid "Headings"
+msgstr ""
+
+#: inc/customizer/options/options-colors.php:102
+msgid "Heading 1"
+msgstr ""
+
+#: inc/customizer/options/options-colors.php:121
+msgid "Heading 2"
+msgstr ""
+
+#: inc/customizer/options/options-colors.php:139
+msgid "Heading 3"
+msgstr ""
+
+#: inc/customizer/options/options-colors.php:157
+msgid "Heading 4"
+msgstr ""
+
+#: inc/customizer/options/options-colors.php:175
+msgid "Heading 5"
+msgstr ""
+
+#: inc/customizer/options/options-colors.php:193
+msgid "Heading 6"
+msgstr ""
+
+#: inc/customizer/options/options-footer.php:11
+msgid "Footer"
+msgstr ""
+
+#: inc/customizer/options/options-footer.php:22
+msgid "Before footer"
+msgstr ""
+
+#: inc/customizer/options/options-footer.php:38
+msgid "Content type"
+msgstr ""
+
+#: inc/customizer/options/options-footer.php:41
+msgid "Nothing"
+msgstr ""
+
+#: inc/customizer/options/options-footer.php:42
+msgid "Call to action"
+msgstr ""
+
+#: inc/customizer/options/options-footer.php:43, inc/customizer/options/options-footer.php:115, inc/customizer/options/options-footer.php:128, inc/customizer/options/options-footer.php:574, inc/customizer/options/options-top-bar.php:78, inc/customizer/options/options-top-bar.php:167
+msgid "Social profile"
+msgstr ""
+
+#: inc/customizer/options/options-footer.php:44, inc/customizer/options/options-footer.php:147, inc/customizer/options/options-footer.php:160
+msgid "HTML"
+msgstr ""
+
+#: inc/customizer/options/options-footer.php:45, inc/customizer/options/options-footer.php:175
+msgid "Shortcode"
+msgstr ""
+
+#: inc/customizer/options/options-footer.php:58
+msgid "Call to Action"
+msgstr ""
+
+#: inc/customizer/options/options-footer.php:74
+msgid "CTA title"
+msgstr ""
+
+#: inc/customizer/options/options-footer.php:88
+msgid "CTA button text"
+msgstr ""
+
+#: inc/customizer/options/options-footer.php:102
+msgid "CTA button link"
+msgstr ""
+
+#: inc/customizer/options/options-footer.php:129, inc/customizer/options/options-footer.php:575, inc/customizer/options/options-top-bar.php:168
+msgid "Add links to your social profiles here"
+msgstr ""
+
+#: inc/customizer/options/options-footer.php:132, inc/customizer/options/options-footer.php:578, inc/customizer/options/options-top-bar.php:171
+msgid "Add new link"
+msgstr ""
+
+#: inc/customizer/options/options-footer.php:188
+msgid "Add your shortcode"
+msgstr ""
+
+#: inc/customizer/options/options-footer.php:254, inc/customizer/options/options-footer.php:444
+msgid "Border color"
+msgstr ""
+
+#: inc/customizer/options/options-footer.php:277, inc/customizer/options/options-footer.php:467, inc/customizer/options/options-header.php:468, inc/customizer/options/options-header.php:554, inc/customizer/options/options-top-bar.php:334
+msgid "Vertical spacing"
+msgstr ""
+
+#: inc/customizer/options/options-footer.php:300
+msgid "Footer widgets"
+msgstr ""
+
+#: inc/customizer/options/options-footer.php:316
+msgid "Footer widgets layout"
+msgstr ""
+
+#: inc/customizer/options/options-footer.php:319
+msgid "1 column"
+msgstr ""
+
+#: inc/customizer/options/options-footer.php:320
+msgid "2 columns"
+msgstr ""
+
+#: inc/customizer/options/options-footer.php:321
+msgid "3 columns"
+msgstr ""
+
+#: inc/customizer/options/options-footer.php:322, inc/customizer/options/options-hero.php:119
+msgid "4 columns"
+msgstr ""
+
+#: inc/customizer/options/options-footer.php:335, inc/customizer/options/options-footer.php:542, inc/customizer/options/options-header.php:126, inc/customizer/options/options-hero.php:82, inc/customizer/options/options-top-bar.php:65
+msgid "Section width"
+msgstr ""
+
+#: inc/customizer/options/options-footer.php:391
+msgid "Widget titles color"
+msgstr ""
+
+#: inc/customizer/options/options-footer.php:410
+msgid "Content color"
+msgstr ""
+
+#: inc/customizer/options/options-footer.php:489
+msgid "Footer bar"
+msgstr ""
+
+#: inc/customizer/options/options-footer.php:522, inc/customizer/options/options-header.php:101
+msgid "Inline"
+msgstr ""
+
+#: inc/customizer/options/options-footer.php:526
+msgid "Separate"
+msgstr ""
+
+#: inc/customizer/options/options-footer.php:560
+msgid "Footer credits"
+msgstr ""
+
+#: inc/customizer/options/options-footer.php:654
+msgid "Top spacing"
+msgstr ""
+
+#: inc/customizer/options/options-footer.php:688
+msgid "Bottom spacing"
+msgstr ""
+
+#: inc/customizer/options/options-header.php:11
+msgid "Header"
+msgstr ""
+
+#: inc/customizer/options/options-header.php:35
+msgid "Logo max. width"
+msgstr ""
+
+#: inc/customizer/options/options-header.php:58
+msgid "Main header"
+msgstr ""
+
+#: inc/customizer/options/options-header.php:105
+msgid "Centered"
+msgstr ""
+
+#: inc/customizer/options/options-header.php:109
+msgid "With ad space"
+msgstr ""
+
+#: inc/customizer/options/options-header.php:161
+msgid "Enable sticky header"
+msgstr ""
+
+#: inc/customizer/options/options-header.php:195
+msgid "Enable search"
+msgstr ""
+
+#: inc/customizer/options/options-header.php:211
+msgid "WooCommerce icons"
+msgstr ""
+
+#: inc/customizer/options/options-header.php:228
+msgid "Enable WooCommerce icons"
+msgstr ""
+
+#: inc/customizer/options/options-header.php:243
+msgid "Button"
+msgstr ""
+
+#: inc/customizer/options/options-header.php:259
+msgid "Enable button"
+msgstr ""
+
+#: inc/customizer/options/options-header.php:276
+msgid "Button text"
+msgstr ""
+
+#: inc/customizer/options/options-header.php:293
+msgid "Button link"
+msgstr ""
+
+#: inc/customizer/options/options-header.php:309
+msgid "Ad"
+msgstr ""
+
+#: inc/customizer/options/options-header.php:327
+msgid "Upload banner image"
+msgstr ""
+
+#: inc/customizer/options/options-header.php:345
+msgid "Banner target link"
+msgstr ""
+
+#: inc/customizer/options/options-header.php:362
+msgid "Banner image alt text"
+msgstr ""
+
+#: inc/customizer/options/options-header.php:376
+msgid "Main header styling"
+msgstr ""
+
+#: inc/customizer/options/options-header.php:406
+msgid "Top"
+msgstr ""
+
+#: inc/customizer/options/options-header.php:492
+msgid "Bottom"
+msgstr ""
+
+#: inc/customizer/options/options-header.php:580
+msgid "Mobile header"
+msgstr ""
+
+#: inc/customizer/options/options-header.php:632
+msgid "Offcanvas menu"
+msgstr ""
+
+#: inc/customizer/options/options-hero.php:15
+msgid "Hero"
+msgstr ""
+
+#: inc/customizer/options/options-hero.php:29
+msgid "Hero type"
+msgstr ""
+
+#: inc/customizer/options/options-hero.php:31
+msgid "Disabled"
+msgstr ""
+
+#: inc/customizer/options/options-hero.php:32
+msgid "Static Image"
+msgstr ""
+
+#: inc/customizer/options/options-hero.php:33
+msgid "Post grid"
+msgstr ""
+
+#: inc/customizer/options/options-hero.php:47
+msgid "Image"
+msgstr ""
+
+#: inc/customizer/options/options-hero.php:106
+msgid "Post grid layout"
+msgstr ""
+
+#: inc/customizer/options/options-hero.php:111
+msgid "3-Post Grid"
+msgstr ""
+
+#: inc/customizer/options/options-hero.php:115
+msgid "5-Post Grid"
+msgstr ""
+
+#: inc/customizer/options/options-hero.php:123
+msgid "Mixed"
+msgstr ""
+
+#: inc/customizer/options/options-hero.php:144
+msgid "Post settings"
+msgstr ""
+
+#: inc/customizer/options/options-hero.php:159
+msgid "Post type"
+msgstr ""
+
+#: inc/customizer/options/options-hero.php:173
+msgid "Select your posts"
+msgstr ""
+
+#: inc/customizer/options/options-hero.php:193
+msgid "Select your pages"
+msgstr ""
+
+#: inc/customizer/options/options-hero.php:216
+msgid "Display"
+msgstr ""
+
+#: inc/customizer/options/options-hero.php:234
+msgid "Display the hero on your static homepage"
+msgstr ""
+
+#: inc/customizer/options/options-hero.php:253
+msgid "Display the hero on your blog page"
+msgstr ""
+
+#: inc/customizer/options/options-hero.php:289
+msgid "Show categories"
+msgstr ""
+
+#: inc/customizer/options/options-sharing.php:15
+msgid "Sharing"
+msgstr ""
+
+#: inc/customizer/options/options-sharing.php:31
+msgid "Enable Facebook"
+msgstr ""
+
+#: inc/customizer/options/options-sharing.php:48
+msgid "Enable Twitter"
+msgstr ""
+
+#: inc/customizer/options/options-sharing.php:65
+msgid "Enable Linkedin"
+msgstr ""
+
+#: inc/customizer/options/options-sharing.php:82
+msgid "Enable Reddit"
+msgstr ""
+
+#: inc/customizer/options/options-sharing.php:99
+msgid "Enable Whatsapp"
+msgstr ""
+
+#: inc/customizer/options/options-sharing.php:116, inc/customizer/options/options-sharing.php:133
+msgid "Enable Pinterest"
+msgstr ""
+
+#: inc/customizer/options/options-sharing.php:150
+msgid "Enable Telegram"
+msgstr ""
+
+#: inc/customizer/options/options-sharing.php:167
+msgid "Enable Weibo"
+msgstr ""
+
+#: inc/customizer/options/options-sharing.php:184
+msgid "Enable VK"
+msgstr ""
+
+#: inc/customizer/options/options-sharing.php:201
+msgid "Enable OK"
+msgstr ""
+
+#: inc/customizer/options/options-sharing.php:218
+msgid "Enable Xing"
+msgstr ""
+
+#: inc/customizer/options/options-sharing.php:235
+msgid "Enable Mail"
+msgstr ""
+
+#: inc/customizer/options/options-top-bar.php:14
+msgid "Top bar"
+msgstr ""
+
+#: inc/customizer/options/options-top-bar.php:50
+msgid "Enable top bar"
+msgstr ""
+
+#: inc/customizer/options/options-top-bar.php:79
+msgid "Secondary menu"
+msgstr ""
+
+#: inc/customizer/options/options-top-bar.php:80
+msgid "Text / HTML"
+msgstr ""
+
+#: inc/customizer/options/options-top-bar.php:81
+msgid "Contact"
+msgstr ""
+
+#: inc/customizer/options/options-top-bar.php:95
+msgid "Left side"
+msgstr ""
+
+#: inc/customizer/options/options-top-bar.php:113, inc/customizer/options/options-top-bar.php:147
+msgid "Select element"
+msgstr ""
+
+#: inc/customizer/options/options-top-bar.php:129
+msgid "Right side"
+msgstr ""
+
+#: inc/customizer/options/options-top-bar.php:189
+msgid "Custom text"
+msgstr ""
+
+#: inc/customizer/options/options-top-bar.php:207
+msgid "Phone number"
+msgstr ""
+
+#: inc/customizer/options/options-top-bar.php:224
+msgid "Email address"
+msgstr ""
+
+#: inc/customizer/options/options-top-bar.php:240
+msgid "Click here to configure your menu"
+msgstr ""
+
+#: inc/customizer/options/options-top-bar.php:255
+msgid "Top bar styling"
+msgstr ""
+
+#: inc/customizer/options/options-typography.php:15
+msgid "Typography"
+msgstr ""
+
+#: inc/customizer/options/options-typography.php:24
+msgid "Body"
+msgstr ""
+
+#: inc/customizer/options/options-typography.php:96, inc/customizer/options/options-typography.php:173
+msgid "Line height"
+msgstr ""
+
+#: inc/customizer/options/options-typography.php:193
+msgid "Letter spacing [px]"
+msgstr ""
+
+#: inc/customizer/options/options-typography.php:226
+msgid "H1 Font Size"
+msgstr ""
+
+#: inc/customizer/options/options-typography.php:261
+msgid "H2 Font Size"
+msgstr ""
+
+#: inc/customizer/options/options-typography.php:296
+msgid "H3 Font Size"
+msgstr ""
+
+#: inc/customizer/options/options-typography.php:331
+msgid "H4 Font Size"
+msgstr ""
+
+#: inc/customizer/options/options-typography.php:367
+msgid "H5 Font Size"
+msgstr ""
+
+#: inc/customizer/options/options-typography.php:402
+msgid "H6 Font Size"
+msgstr ""
+
+#. translators: %s: search query.
+#: inc/template-functions.php:342
+msgid "Search Results for: %s"
+msgstr ""
+
+#: inc/template-functions.php:387
+msgid "Share this post"
+msgstr ""
+
+#. translators: %s: Name of current post. Only visible to screen readers
+#: inc/template-tags.php:66
+msgid "Edit <span class=\"screen-reader-text\">%s</span>"
+msgstr ""
+
+#: inc/template-tags.php:202
+msgid "0"
+msgstr ""
+
+#: inc/template-tags.php:202
+msgid "1"
+msgstr ""
+
+#: inc/template-tags.php:202
+msgid "%"
+msgstr ""
+
+#: inc/template-tags.php:269
+msgid "Previous article"
+msgstr ""
+
+#: inc/template-tags.php:279
+msgid "Next article"
+msgstr ""
+
+#: inc/widgets/class-voluto-author.php:11
+msgid "Automatically display author image, name and bio for the current author."
+msgstr ""
+
+#: inc/widgets/class-voluto-author.php:12
+msgid "Voluto: Author Profile"
+msgstr ""
+
+#: inc/widgets/class-voluto-author.php:53, inc/widgets/class-voluto-recent-posts.php:139
+msgid "Title:"
+msgstr ""
+
+#: inc/widgets/class-voluto-author.php:56
+msgid "No configuration required. This widget will automatically display your avatar, name and bio."
+msgstr ""
+
+#: inc/widgets/class-voluto-recent-posts.php:20
+msgid "Recent posts with thumbnails."
+msgstr ""
+
+#: inc/widgets/class-voluto-recent-posts.php:23
+msgid "Voluto: Recent Posts"
+msgstr ""
+
+#: inc/widgets/class-voluto-recent-posts.php:142
+msgid "Number of posts to show:"
+msgstr ""
+
+#: inc/widgets/class-voluto-recent-posts.php:146
+msgid "Display post date?"
+msgstr ""
+
+#: inc/woocommerce.php:379
+msgid "View your shopping cart"
+msgstr ""
+
+#: inc/woocommerce.php:401
+msgid "Your account"
+msgstr ""
+
+#: template-parts/content-none.php:14
+msgid "Nothing Found"
+msgstr ""
+
+#: template-parts/content-none.php:44
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr ""
+
+#: template-parts/content-none.php:37
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr ""
+
+#: template-parts/content-none.php:24
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: woocommerce/add-to-wishlist-remove.php:63, woocommerce/add-to-wishlist-remove.php:51
+msgid "or"
+msgstr ""
+
+#: woocommerce/add-to-wishlist-remove.php:64, woocommerce/add-to-wishlist-remove.php:52
+msgid "View &rsaquo;"
+msgstr ""
