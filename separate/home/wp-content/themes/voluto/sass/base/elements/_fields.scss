@@ -1,0 +1,52 @@
+input[type="text"],
+input[type="email"],
+input[type="url"],
+input[type="password"],
+input[type="search"],
+input[type="number"],
+input[type="tel"],
+input[type="range"],
+input[type="date"],
+input[type="month"],
+input[type="week"],
+input[type="time"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="color"],
+textarea,
+select,
+.woocommerce .select2-container .select2-selection--single,
+.woocommerce-page .select2-container .select2-selection--single,
+.wp-block-search .wp-block-search__input {
+	color: $color__text-input;
+	border: 1px solid var(--color-borders);
+	border-radius: 0;
+	padding: 10px 16px;
+	border-radius: 5px;
+	max-width: 100%;
+
+	&:focus {
+		color: $color__text-input-focus;
+	}
+}
+
+select {
+	border: 1px solid var(--color-borders);
+}
+
+textarea {
+	width: 100%;
+}
+.woocommerce .select2-container .select2-selection--single,
+.woocommerce-page .select2-container .select2-selection--single {
+	height: 100%;
+
+	.select2-selection__arrow {
+		top: 15px;
+	}
+}
+
+div.nf-form-content {
+	margin: 0;
+	padding: 0;
+}
