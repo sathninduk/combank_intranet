@@ -12,54 +12,6 @@ add_action('wp_head', 'combank_intranet_head');
 function combank_intranet_head()
 {
     require_once 'common_files/head.php';
-
-    // Forex Rates Editor Privilege
-    //function forex_editor_edit_check() {
-    /*$post = $action = "";
-    $post = $_GET['post'];
-    $action = $_GET['action'];*/
-
-    /*if (current_user_can('forex_rates_editor') && $action == 'edit') {
-        if ($post != 92) {
-            header('Location: /');
-        }
-    }*/
-
-    /*}
-    forex_editor_edit_check();*/
-
-}
-
-// Admin Head
-add_action('admin_head', 'combank_intranet_admin_head');
-function combank_intranet_admin_head()
-{
-
-
-    $user = wp_get_current_user();
-
-    if (in_array('forex_rates_editor', (array)$user->roles)) {
-        if (isset($_GET['action']) && $_GET['action'] == 'edit' && isset($_GET['post']) && $_GET['post'] != 92) {
-            //header('Location: /');
-            echo "<center><div style=\"max-width: 80vw; text-align: center; padding: 20px; border: 2px solid rgb(255, 0, 0); border-radius: 10px;\"><b>Unauthorized</b></div></center>";
-            exit;
-        }
-    }
-
-    if (in_array('staff_officer_codes_editor', (array)$user->roles)) {
-        echo "Staff Code";
-    }
-    if (in_array('notice_board_editor', (array)$user->roles)) {
-        echo "Notice";
-    }
-    if (in_array('history_logs_viewer', (array)$user->roles)) {
-        echo "History";
-    }
-    if (in_array('circular_editor', (array)$user->roles)) {
-        echo "Circular";
-    }
-
-
 }
 
 // Footer
@@ -104,7 +56,6 @@ function combankTopNavDeps () {
         '<img class=\"top-nav-cmb-logo\" src=\"http://combank.intranet.com/wp-content/uploads/2022/02/combank_intra_header.png\">' +
         '<select id=\"combank-departments-top-nav\" onchange=\"combankTopNavDepsOnclick(this.value)\" class=\"combank-top-nav-deps-select\">' +
         ";
-
 // All blog names by DB
     global $wpdb;
     global $blog_id;
@@ -126,7 +77,6 @@ function combankTopNavDeps () {
             restore_current_blog();
         }
     }
-
     echo "
         '</select>';
     // Departments Script
@@ -151,18 +101,147 @@ function combankHeaderImage () {
     document.getElementsByClassName(\"header-ad\")[0].innerHTML = '';
 }
 combankHeaderImage ();
-
-
-
-
-
-
-
-
-
-
 </script>
 ";
+}
+
+// Admin Head
+add_action('admin_head', 'combank_intranet_admin_head');
+function combank_intranet_admin_head()
+{
+
+    $user = wp_get_current_user();
+    $current_page = $_SERVER['REQUEST_URI'];
+    $current_page_array = explode("/", $current_page);
+
+    if (in_array('forex_rates_editor', (array)$user->roles)) {
+        if ($current_page_array[1] == "wp-admin") {
+            if ($current_page == "/wp-admin/edit.php?post_type=page" || $current_page == "/wp-admin/post.php?post=92&action=edit") {
+                if ($_SERVER['REQUEST_URI'] == "/wp-admin/edit.php?post_type=page") {
+                    echo "<style>
+                    #wp-admin-bar-simple-history-blog-1, .row-actions span:nth-child(2), .check-column, .bulkactions, #menu-posts-notice, #menu-users, #menu-pages .wp-submenu li:nth-child(3), #wp-admin-bar-new-content, #wp-admin-bar-simple-history-view-history, #menu-dashboard {display: none !important;}
+                    .row-actions {display: none;}
+                    #post-92 .row-actions {display: block !important;}
+                    </style>
+                    <script>document.getElementById(\"_inline_edit\").value=\"e\"</script>
+                    ";
+                }
+            } else {
+                echo "<script>window.location.href = \"/wp-admin/edit.php?post_type=page\";</script>";
+                exit;
+            }
+        }
+    }
+
+    if (in_array('staff_officer_codes_editor', (array)$user->roles)) {
+        if ($current_page_array[1] == "wp-admin") {
+            if ($current_page == "/wp-admin/edit.php?post_type=page" || $current_page == "/wp-admin/post.php?post=116&action=edit") {
+                if ($_SERVER['REQUEST_URI'] == "/wp-admin/edit.php?post_type=page") {
+                    echo "<style>
+                    #wp-admin-bar-simple-history-blog-1, .row-actions span:nth-child(2), .check-column, .bulkactions, #menu-posts-notice, #menu-users, #menu-pages .wp-submenu li:nth-child(3), #wp-admin-bar-new-content, #wp-admin-bar-simple-history-view-history, #menu-dashboard {display: none !important;}
+                    .row-actions {display: none;}
+                    #post-116 .row-actions {display: block !important;}
+                    </style>
+                    <script>document.getElementById(\"_inline_edit\").value=\"e\"</script>
+                    ";
+                }
+            } else {
+                echo "<script>window.location.href = \"/wp-admin/edit.php?post_type=page\";</script>";
+                exit;
+            }
+        }
+    }
+
+    if (in_array('interest_rates_editor', (array)$user->roles)) {
+        if ($current_page_array[1] == "wp-admin") {
+            if ($current_page == "/wp-admin/edit.php?post_type=page" || $current_page == "/wp-admin/post.php?post=124&action=edit") {
+                if ($_SERVER['REQUEST_URI'] == "/wp-admin/edit.php?post_type=page") {
+                    echo "<style>
+                    #wp-admin-bar-simple-history-blog-1, .row-actions span:nth-child(2), .check-column, .bulkactions, #menu-posts-notice, #menu-users, #menu-pages .wp-submenu li:nth-child(3), #wp-admin-bar-new-content, #wp-admin-bar-simple-history-view-history, #menu-dashboard {display: none !important;}
+                    .row-actions {display: none;}
+                    #post-124 .row-actions {display: block !important;}
+                    </style>
+                    <script>document.getElementById(\"_inline_edit\").value=\"e\"</script>
+                    ";
+                }
+            } else {
+                echo "<script>window.location.href = \"/wp-admin/edit.php?post_type=page\";</script>";
+                exit;
+            }
+        }
+    }
+
+    if (in_array('treasury_rates_editor', (array)$user->roles)) {
+        if ($current_page_array[1] == "wp-admin") {
+            if ($current_page == "/wp-admin/edit.php?post_type=page" || $current_page == "/wp-admin/post.php?post=126&action=edit") {
+                if ($_SERVER['REQUEST_URI'] == "/wp-admin/edit.php?post_type=page") {
+                    echo "<style>
+                    #wp-admin-bar-simple-history-blog-1, .row-actions span:nth-child(2), .check-column, .bulkactions, #menu-posts-notice, #menu-users, #menu-pages .wp-submenu li:nth-child(3), #wp-admin-bar-new-content, #wp-admin-bar-simple-history-view-history, #menu-dashboard {display: none !important;}
+                    .row-actions {display: none;}
+                    #post-126 .row-actions {display: block !important;}
+                    </style>
+                    <script>document.getElementById(\"_inline_edit\").value=\"e\"</script>
+                    ";
+                }
+            } else {
+                echo "<script>window.location.href = \"/wp-admin/edit.php?post_type=page\";</script>";
+                exit;
+            }
+        }
+    }
+
+    if (in_array('notice_board_editor', (array)$user->roles)) {
+        if ($current_page_array[1] == "wp-admin") {
+            if ($current_page == "/wp-admin/edit.php?post_type=notice" || $current_page == "/wp-admin/post-new.php?post_type=notice") {
+                if ($_SERVER['REQUEST_URI'] == "/wp-admin/edit.php?post_type=notice") {
+                    echo "<style>
+                    #menu-posts, #menu-comments, #menu-tools, #wp-admin-bar-simple-history-blog-1, .check-column, .bulkactions, #menu-users, #menu-pages .wp-submenu li:nth-child(3), #wp-admin-bar-new-content, #wp-admin-bar-simple-history-view-history, #menu-dashboard {display: none !important;}
+                    </style>
+                    <script>document.getElementById(\"_inline_edit\").value=\"e\"</script>
+                    ";
+                }
+            } else {
+                if (isset($_GET["action"])) {
+                    if ($current_page_array[1] == "wp-admin" && explode("?", $current_page_array[2])[0] == "post.php" && $_GET["action"] == "edit") {
+                    } else {
+                        echo "<script>window.location.href = \"/wp-admin/edit.php?post_type=notice\";</script>";
+                        exit;
+                    }
+                } else {
+                    echo "<script>window.location.href = \"/wp-admin/edit.php?post_type=notice\";</script>";
+                    exit;
+                }
+
+            }
+        }
+    }
+
+    if (in_array('history_logs_viewer', (array)$user->roles)) {
+        if ($current_page_array[1] == "wp-admin") {
+            if ($current_page == "/wp-admin/options-general.php?page=simple_history_settings_menu_slug&selected-tab=debug" || $current_page == "/wp-admin/options-general.php?page=simple_history_settings_menu_slug&selected-tab=export" || $current_page == "/wp-admin/index.php?page=simple_history_page") {
+                echo "<style>
+                    #menu-settings ul li:nth-child(2), #menu-settings ul li:nth-child(3), #menu-settings ul li:nth-child(4), #menu-settings ul li:nth-child(5), #menu-settings ul li:nth-child(6), #menu-settings ul li:nth-child(7), #menu-dashboard ul li:nth-child(2), #menu-dashboard ul li:nth-child(3), #menu-pages, #wp-admin-bar-simple-history-blog-1, #menu-posts-notice, #menu-pages, #menu-tools, #toplevel_page_mo_ldap_local_login, #toplevel_page_searchandfilter-settings, #wp-admin-bar-new-content, #menu-appearance, #menu-users {display: none !important;}
+                    </style>
+                    ";
+            } else {
+                if ($current_page == "/wp-admin/options-general.php?page=simple_history_settings_menu_slug") {
+                    echo "<script>window.location.href = \"/wp-admin/options-general.php?page=simple_history_settings_menu_slug&selected-tab=export\";</script>";
+                    exit;
+                } else if ($current_page == "/wp-admin/options-general.php?page=simple_history_settings_menu_slug&selected-tab=debug") {
+
+                } else {
+                    echo "<script>window.location.href = \"/wp-admin/index.php?page=simple_history_page\";</script>";
+                    exit;
+                }
+
+            }
+        }
+    }
+
+    if (in_array('circular_editor', (array)$user->roles)) {
+        echo "Circular";
+    }
+
 }
 
 ?>
