@@ -238,10 +238,64 @@ function combank_intranet_admin_head()
         }
     }
 
-    if (in_array('circular_editor', (array)$user->roles)) {
-        echo "Circular";
+    if (in_array('circulars_editor', (array)$user->roles)) {
+
+        if ($current_page == "/wp-admin/edit.php?category_name=circulars" || $current_page == "/wp-admin/post-new.php") {
+            echo "<style>
+                    #menu-dashboard, #menu-comments, #menu-settings ul li:nth-child(2), #menu-settings ul li:nth-child(3), #menu-settings ul li:nth-child(4), #menu-settings ul li:nth-child(5), #menu-settings ul li:nth-child(6), #menu-settings ul li:nth-child(7), #menu-dashboard ul li:nth-child(2), #menu-dashboard ul li:nth-child(3), #menu-pages, #wp-admin-bar-simple-history-blog-1, #menu-posts-notice, #menu-pages, #menu-tools, #toplevel_page_mo_ldap_local_login, #toplevel_page_searchandfilter-settings, #wp-admin-bar-new-content, #menu-appearance, #menu-users {display: none !important;}
+                    </style>
+                    ";
+        } else {
+            if (isset($_GET["action"])) {
+                if ($current_page_array[1] == "wp-admin" && explode("?", $current_page_array[2])[0] == "post.php" && $_GET["action"] == "edit" && get_the_category($_GET["post"])[0]->cat_ID == 3) {
+
+                } else {
+                    echo "<script>window.location.href = \"/wp-admin/edit.php?category_name=circulars\";</script>";
+                    exit;
+                }
+            } else {
+                echo "<script>window.location.href = \"/wp-admin/edit.php?category_name=circulars\";</script>";
+                exit;
+            }
+        }
+    }
+
+    if (in_array('news_editor', (array)$user->roles)) {
+
+        if ($current_page == "/wp-admin/edit.php?category_name=news" || $current_page == "/wp-admin/post-new.php") {
+            echo "<style>
+                    #menu-dashboard, #menu-comments, #menu-settings ul li:nth-child(2), #menu-settings ul li:nth-child(3), #menu-settings ul li:nth-child(4), #menu-settings ul li:nth-child(5), #menu-settings ul li:nth-child(6), #menu-settings ul li:nth-child(7), #menu-dashboard ul li:nth-child(2), #menu-dashboard ul li:nth-child(3), #menu-pages, #wp-admin-bar-simple-history-blog-1, #menu-posts-notice, #menu-pages, #menu-tools, #toplevel_page_mo_ldap_local_login, #toplevel_page_searchandfilter-settings, #wp-admin-bar-new-content, #menu-appearance, #menu-users {display: none !important;}
+                    </style>
+                    ";
+        } else {
+            if (isset($_GET["action"])) {
+                if ($current_page_array[1] == "wp-admin" && explode("?", $current_page_array[2])[0] == "post.php" && $_GET["action"] == "edit" && get_the_category($_GET["post"])[0]->cat_ID == 4) {
+
+                } else {
+                    echo "<script>window.location.href = \"/wp-admin/edit.php?category_name=news\";</script>";
+                    exit;
+                }
+            } else {
+                echo "<script>window.location.href = \"/wp-admin/edit.php?category_name=news\";</script>";
+                exit;
+            }
+        }
     }
 
 }
+
+// Circulars and News Editors - Default Category Definition
+function set_category_by_default($post_ID)
+{
+    $user = wp_get_current_user();
+    if (in_array('circular_editor', (array)$user->roles)) {
+        wp_set_post_categories($post_ID, 3);
+    }
+    if (in_array('news_editor', (array)$user->roles)) {
+        wp_set_post_categories($post_ID, 4);
+    }
+}
+
+add_action('publish_post', 'set_category_by_default', 5, 1);
 
 ?>
